@@ -34,3 +34,15 @@ header {
   width: 250px;
   height: 275px;
 }
+@media screen and (max-width: 900px) {
+  .gameimage {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin-left: 70px;
+  }
+}
