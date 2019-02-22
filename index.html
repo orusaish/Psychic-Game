@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Psychic Game</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="page-header">
+        <h1> <span style="color:red;font-weight:bold;font-size: 20px">The Psychic Game</span></h1>
+      </div>
+    </header>
+    <div class="container">
+        <div class="row">
+          </div>
+
+      <h2 id="userchoice-text"> <span style="font-weight:bold">Guess what letter I'm thinking of</span></h2>
+      <div class="row">
+          <div class="col-md-4">
+              <img class="gameimage" src="assets/images/pic1.jpeg" alt="..." />
+            </div>
+            <div class="col-md-4">
+        <div class="game">
+          <p id="computerchoice-text"></p>
+          <p id="Total-Wins">Total Wins:</p>
+          <p id="Total-losses">Total Losses:</p>
+          <p id="Guesses-left">Guesses Left:</p>
+          <p id="your-guesses">Your Guesses so far:</p>
+          <p id="restart-text"></p>
+        </div>
+      </div>
+      <div class="col-md-2">
+          <img class="gameimage" src="assets/images/pic2.png" alt="..." />
+          
+      </div>
+    </div>
+    <script src="./assets/javascript/game.js"></script>
+  </body>
+</html>
